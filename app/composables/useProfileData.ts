@@ -132,52 +132,7 @@ export const useProfileData = () => {
       ],
       additionalInfo: 'Technologies and tools I used during this role: Backend: .NET Web API, ASP.NET Core MVC, Entity Framework Core, T-SQL | Frontend: Vue.js, TypeScript | Others: JWT, SignalR, Redis, Hangfire | Cloud: Microsoft Azure (including Azure DevOps) | Database: MSSQL, PostgreSQL | Architecture: Modular Monolith, Monolith | Practices: Agile/Scrum, CI/CD, Code Reviews, Unit Testing, SonarQube'
     },
-    {
-      title: 'Fullstack Developer',
-      type: 'Freelance',
-      company: 'Hemen Başvur',
-      companyUrl: 'https://test.hemenbasvur.com',
-      location: 'Remote',
-      period: '2025 - Present',
-      logo: '/img/hemenbasvur_logo.svg',
-      description: 'Developing and maintaining a comprehensive financial platform that enables users to compare and apply for various banking products including loans, credit cards, and deposits. The platform provides real-time market data, financial calculators, and a user-friendly interface for financial product comparison.',
-      projects: [
-        'Developed a microservices-based financial platform using .NET, Docker, and Kubernetes for scalable and containerized architecture',
-        'Built credit application and calculation modules with real-time processing using RabbitMQ for message queuing and Redis for caching',
-        'Developed deposit management system with interest rate comparisons and product filtering capabilities',
-        'Created stock market, financial markets, and cryptocurrency management modules with real-time data tracking using Elasticsearch for search and analytics',
-        'Implemented user authentication and authorization system using JWT for secure access to financial services',
-        'Built responsive frontend using Nuxt.js with Server-Side Rendering (SSR) for improved performance and SEO optimization, integrated with PrimeVue, TypeScript, and Tailwind CSS',
-        'Integrated OpenTelemetry for distributed tracing and monitoring, with Grafana and Kibana for observability and log analysis',
-        'Managed CI/CD pipelines using Azure DevOps for automated deployments and continuous integration',
-        'Stored and managed financial data using MongoDB for flexible document-based storage and Elasticsearch for advanced search capabilities'
-      ],
-      technologies: [
-        '.NET',
-        'EF Core',
-        'Microservices',
-        'Refit',
-        'Polly',
-        'Docker',
-        'Kubernetes',
-        'RabbitMQ',
-        'Redis',
-        'JWT',
-        'Nuxt.js',
-        'SSR',
-        'SEO',
-        'PrimeVue',
-        'TypeScript',
-        'Tailwind CSS',
-        'MongoDB',
-        'Elasticsearch',
-        'OpenTelemetry',
-        'Grafana',
-        'Kibana',
-        'Azure DevOps'
-      ],
-      additionalInfo: 'Technologies and tools I used during this role: Backend: .NET, Microservices Architecture | Frontend: Nuxt.js (SSR), PrimeVue, TypeScript, Tailwind CSS | Infrastructure: Docker, Kubernetes, Azure DevOps | Messaging & Caching: RabbitMQ, Redis | Database: MongoDB, Elasticsearch | Security: JWT | Observability: OpenTelemetry, Grafana, Kibana | SEO: Server-Side Rendering (SSR) for improved search engine optimization and performance | Features: Credit card management, credit applications and calculations, deposit management, stock market tracking, financial markets, cryptocurrency management'
-    },
+  
     {
       title: 'Software Developer',
       type: 'Full-time',
