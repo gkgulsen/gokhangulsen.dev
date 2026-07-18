@@ -2,7 +2,7 @@ export const useProfileData = () => {
   const profile = {
     name: 'Gökhan Gülşen',
     title: 'Software Developer',
-    location: 'Kars',
+    location: 'Çanakkale',
     avatar: '/img/cv-avatar.jpg',
     description: 'Software developer with 5+ years of experience in building web apps.\nSkilled in : .Net, Vue.js, Nuxt.js, Typescript',
     skills: {
@@ -83,7 +83,7 @@ export const useProfileData = () => {
   }
 
   const information = [
-    { label: 'Location', value: 'Kars, Türkiye' },
+    { label: 'Location', value: 'Çanakkale, Türkiye' },
     { label: 'Experience', value: '>5 years' },
     { label: 'Availability', value: 'In 1 month' },
     { label: 'Remote', value: 'Yes' },
