@@ -62,7 +62,7 @@ export const useProfileData = () => {
   }
 
   const aboutMe = {
-    description: 'Software developer with expertise in .NET and Vue.js. Focused on building scalable REST APIs, microservices, and database-driven applications. Experienced in CI/CD, Docker, RabbitMQ, Redis, and AI-assisted development workflows using tools such as ChatGPT, GitHub Copilot, Cursor, and Codex.',
+    description: 'Software developer with expertise in .NET and Vue.js. Focused on building scalable REST APIs, microservices, and database-driven applications. Experienced in CI/CD, Docker, RabbitMQ, Redis, and AI-assisted development workflows using tools such as ChatGPT, GitHub Copilot, Claude, and Codex.',
     links: [
       {
         href: 'https://gokhangulsen.dev',
@@ -112,7 +112,7 @@ export const useProfileData = () => {
         'Manage and support Microsoft SQL Server (MSSQL) and PostgreSQL databases, ensuring high availability and performance optimization',
         'Implement real-time messaging notifications using SignalR and utilize Redis, and Hangfire for enhanced application performance and scalability',
         'Adhere to SonarQube standards, engage in code reviews, and write comprehensive Unit Tests using xUnit to ensure code quality and robustness',
-        'Apply AI-assisted development practices using ChatGPT, GitHub Copilot, Cursor, and Codex to speed up implementation, refactoring, documentation, and technical problem solving',
+        'Apply AI-assisted development practices using ChatGPT, GitHub Copilot, Claude, and Codex to speed up implementation, refactoring, documentation, and technical problem solving',
         'Work closely with DevOps, networking, and database management teams to ensure cohesive system integration'
       ],
       technologies: [     
