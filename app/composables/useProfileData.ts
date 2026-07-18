@@ -51,13 +51,18 @@ export const useProfileData = () => {
         // { name: 'Postman', icon: '/icons/postman.svg' },
         { name: 'n8n', icon: '/icons/n8n-auto.svg' },
         // { name: 'Ollama', icon: '/icons/ollama-auto.svg' }
+      ],
+      aiTools: [       
+        { name: 'GitHub Copilot', icon: '/icons/githubcopilot.svg' },
+        { name: 'Claude', icon: '/icons/claude-color.svg' },
+        { name: 'Codex', icon: '/icons/codex-color.svg' }
       ]
     },
-    cvUrl: '/sener-yilmaz-cv-2025.pdf'
+    cvUrl: '/'
   }
 
   const aboutMe = {
-    description: 'Software developer with expertise in .NET and Vue.js. Focused on building scalable REST APIs, microservices, and managing databases. Skilled in CI/CD implementation and modern technologies like Docker, RabbitMQ, and Redis.',
+    description: 'Software developer with expertise in .NET and Vue.js. Focused on building scalable REST APIs, microservices, and database-driven applications. Experienced in CI/CD, Docker, RabbitMQ, Redis, and AI-assisted development workflows using tools such as ChatGPT, GitHub Copilot, Cursor, and Codex.',
     links: [
       {
         href: 'https://gokhangulsen.dev',
@@ -107,6 +112,7 @@ export const useProfileData = () => {
         'Manage and support Microsoft SQL Server (MSSQL) and PostgreSQL databases, ensuring high availability and performance optimization',
         'Implement real-time messaging notifications using SignalR and utilize Redis, and Hangfire for enhanced application performance and scalability',
         'Adhere to SonarQube standards, engage in code reviews, and write comprehensive Unit Tests using xUnit to ensure code quality and robustness',
+        'Apply AI-assisted development practices using ChatGPT, GitHub Copilot, Cursor, and Codex to speed up implementation, refactoring, documentation, and technical problem solving',
         'Work closely with DevOps, networking, and database management teams to ensure cohesive system integration'
       ],
       technologies: [     
@@ -127,10 +133,14 @@ export const useProfileData = () => {
         'Azure DevOps',
         'VueJS',
         'TypeScript',        
+        'ChatGPT',
+        'GitHub Copilot',
+        'Cursor',
+        'Codex',
         'SonarQube',  
         'xUnit'
       ],
-      additionalInfo: 'Technologies and tools I used during this role: Backend: .NET Web API, ASP.NET Core MVC, Entity Framework Core, T-SQL | Frontend: Vue.js, TypeScript | Others: JWT, SignalR, Redis, Hangfire | Cloud: Microsoft Azure (including Azure DevOps) | Database: MSSQL, PostgreSQL | Architecture: Modular Monolith, Monolith | Practices: Agile/Scrum, CI/CD, Code Reviews, Unit Testing, SonarQube'
+      additionalInfo: 'Technologies and tools I used during this role: Backend: .NET Web API, ASP.NET Core MVC, Entity Framework Core, T-SQL | Frontend: Vue.js, TypeScript | Others: JWT, SignalR, Redis, Hangfire | Cloud: Microsoft Azure (including Azure DevOps) | Database: MSSQL, PostgreSQL | Architecture: Modular Monolith, Monolith | AI-assisted development: ChatGPT, GitHub Copilot, Cursor, Codex | Practices: Agile/Scrum, CI/CD, Code Reviews, Unit Testing, SonarQube'
     },
   
     {

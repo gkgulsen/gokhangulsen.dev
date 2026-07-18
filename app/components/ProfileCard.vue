@@ -60,6 +60,15 @@
             <span class="text-xs text-gray-700 hidden sm:inline">{{ skill.name }}</span>
           </div>
         </template>
+        <!-- AI Tools -->
+        <template v-if="profile.skills.aiTools && profile.skills.aiTools.length > 0">
+          <div v-for="skill in profile.skills.aiTools" :key="skill.name"
+            class="flex items-center gap-1.5 bg-slate-200 px-2.5 py-1.5 rounded-sm group hover:bg-slate-300 transition-colors"
+            :title="skill.name">
+            <img v-if="skill.icon" :src="skill.icon" :alt="skill.name" class="w-4 h-4 object-contain">
+            <span class="text-xs text-gray-700 sm:inline">{{ skill.name }}</span>
+          </div>
+        </template>
       </div>
       <div class="hidden print:block">
         <button @click="downloadCV"
@@ -83,7 +92,7 @@
 <script setup lang="ts">
 interface Skill {
   name: string
-  icon: string
+  icon?: string
 }
 
 interface Skills {
@@ -92,6 +101,7 @@ interface Skills {
   database?: Skill[]
   observability?: Skill[]
   other?: Skill[]
+  aiTools?: Skill[]
 }
 
 interface Profile {
