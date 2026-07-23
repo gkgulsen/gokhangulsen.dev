@@ -8,7 +8,10 @@
       <div v-for="(info, index) in information" :key="info.label"
         :class="['flex flex-col sm:flex-row sm:justify-between gap-1 sm:gap-0 text-sm font-light text-gray-600', index < information.length - 1 ? 'border-b border-gray-200 py-4' : 'py-4']">
         <span class="font-medium sm:font-light">{{ info.label }}</span>
-        <span>{{ info.value }}</span>
+        <div class="text-right sm:max-w-[70%]">
+          <span class="block">{{ info.value }}</span>
+          <span v-if="info.detail" class="mt-0.5 block text-xs text-gray-500">{{ info.detail }}</span>
+        </div>
       </div>
     </div>
   </div>
@@ -18,6 +21,7 @@
 interface Info {
   label: string
   value: string
+  detail?: string
 }
 
 defineProps<{

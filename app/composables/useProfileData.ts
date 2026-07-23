@@ -90,6 +90,11 @@ export const useProfileData = () => {
   const information = [
     { label: 'Location', value: 'Çanakkale, Türkiye' },
     { label: 'Experience', value: '>5 years' },
+    {
+      label: 'Education',
+      value: 'M.Sc. in Aircraft Engineering',
+      detail: 'Necmettin Erbakan University'
+    },
     { label: 'Availability', value: 'In 1 month' },
     { label: 'Remote', value: 'Yes' },
     { label: 'Relocation', value: 'No' }
